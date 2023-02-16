@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Tarefa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="/css/style.css">
+   <script src="/js/js.js"></script>
+   
+    
+</head>
+<body>  
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:List()">Ver Tarefas</a>
+          </div>
+        </nav>
+      </div>
+    <section class="container-principal">
+        <form id="formularioCadastro" class="form-group" action="/create" method="post" enctype="multipart/form-data">
+
+            <div class="title">
+                <h1>Cadastre sua Tarefa</h1>
+            </div>
+
+            <div class="single-input mt-3">
+                <input class="form-control" placeholder="nome da tarefa" type="text" id="nome_tarefa" name="nome_tarefa">
+            </div>
+            
+            <div class="single-input mt-3">
+                <input class="form-control" placeholder="Descricao Tarefa" type="text" id="descricao_tarefa" name="descricao_tarefa">
+            </div>
+            
+            <div class="single-input mt-3">
+                <input class="form-control" placeholder="Quando Fazer" type="text" id="quando_fazer" name="quando_fazer">
+            </div>
+            <button  id="submit" type="submit" class="btn btn-danger center-button" mt-3>ENVIAR</button>
+        </form>       
+    </section>
+</div>
+
+</body>
+</html>
