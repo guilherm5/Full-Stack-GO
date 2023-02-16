@@ -1,6 +1,6 @@
 # Task Scheduler with GO
 
-![Example](https://recordit.co/cjj4IT2uww)
+![Example](http://g.recordit.co/cjj4IT2uww.gif)
 
 ## What are the functions of this project ?
 - [x] Create task
