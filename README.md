@@ -7,7 +7,6 @@
 - [x] List task
 - [x] Delete task
 - [-] Update task
-- [x] MVC pattern project
 
 ## Technologies used
 
